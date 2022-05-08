@@ -13,6 +13,8 @@
 		3960ED872828084500CA23FA /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3960ED852828084500CA23FA /* Main.storyboard */; };
 		3960ED892828084500CA23FA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3960ED882828084500CA23FA /* Assets.xcassets */; };
 		3960ED8C2828084500CA23FA /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3960ED8A2828084500CA23FA /* LaunchScreen.storyboard */; };
+		3960ED9428280A8200CA23FA /* MainTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3960ED9328280A8200CA23FA /* MainTableViewController.swift */; };
+		3960ED9828280AC000CA23FA /* AddTaskViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3960ED9728280AC000CA23FA /* AddTaskViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +26,8 @@
 		3960ED882828084500CA23FA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		3960ED8B2828084500CA23FA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		3960ED8D2828084500CA23FA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3960ED9328280A8200CA23FA /* MainTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainTableViewController.swift; sourceTree = "<group>"; };
+		3960ED9728280AC000CA23FA /* AddTaskViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddTaskViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -63,6 +67,8 @@
 				3960ED882828084500CA23FA /* Assets.xcassets */,
 				3960ED8A2828084500CA23FA /* LaunchScreen.storyboard */,
 				3960ED8D2828084500CA23FA /* Info.plist */,
+				3960ED9328280A8200CA23FA /* MainTableViewController.swift */,
+				3960ED9728280AC000CA23FA /* AddTaskViewController.swift */,
 			);
 			path = Solicitude;
 			sourceTree = "<group>";
@@ -138,9 +144,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3960ED9428280A8200CA23FA /* MainTableViewController.swift in Sources */,
 				3960ED842828084500CA23FA /* ViewController.swift in Sources */,
 				3960ED802828084500CA23FA /* AppDelegate.swift in Sources */,
 				3960ED822828084500CA23FA /* SceneDelegate.swift in Sources */,
+				3960ED9828280AC000CA23FA /* AddTaskViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
